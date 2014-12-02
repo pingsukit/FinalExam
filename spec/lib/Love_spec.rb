@@ -5,7 +5,7 @@ describe "lovemac" do
 
 	it 'test case :multiples of three' do
 
-	    	lovemac(3).should eql "Love"
+	    	 expect(lovemac(3)).to eq("Love")
 		   #expect(lovemac(3)).to eq("Love")
 	end
 
