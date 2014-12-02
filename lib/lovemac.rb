@@ -1,6 +1,6 @@
-class Love
+
 	
-	def self.lovemac(number)
+	def lovemac(number)
      show=""
      if number%3==0 && number%15!=0
      	show="Love"
@@ -15,4 +15,3 @@ class Love
 
     end
 
-end
