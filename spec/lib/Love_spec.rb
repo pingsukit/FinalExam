@@ -1,4 +1,4 @@
-require "Game"
+require "Love"
 require "spec_helper"
 
 describe Love do 
